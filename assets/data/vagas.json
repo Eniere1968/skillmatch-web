@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "empresa": "TechStart",
+        "cargo": "Desenvolvedor Front-End Júnior",
+        "requisitos": ["HTML", "CSS", "JavaScript"],
+        "salario": 3500,
+        "modalidade": "Presencial",
+        "stack": "React",
+        "senioridade": "Júnior"
+    },
+    {
+        "id": 2,
+        "empresa": "WebDev Solutions",
+        "cargo": "Desenvolvedor Front-End Pleno",
+        "requisitos": ["HTML", "CSS", "JavaScript", "React", "Git"],
+        "salario": 6000,
+        "modalidade": "Remoto",
+        "stack": "React",
+        "senioridade": "Pleno"
+    },
+    {
+        "id": 3,
+        "empresa": "Inovação Digital",
+        "cargo": "Desenvolvedor Full Stack",
+        "requisitos": ["HTML", "CSS", "JavaScript", "Node.js", "SQL"],
+        "salario": 8000,
+        "modalidade": "Híbrido",
+        "stack": "Node.js",
+        "senioridade": "Pleno"
+    },
+    {
+        "id": 4,
+        "empresa": "CodeMaster",
+        "cargo": "Desenvolvedor Front-End Sênior",
+        "requisitos": ["HTML", "CSS", "JavaScript", "React", "TypeScript", "Git"],
+        "salario": 12000,
+        "modalidade": "Remoto",
+        "stack": "React",
+        "senioridade": "Sênior"
+    },
+    {
+        "id": 5,
+        "empresa": "StartupXYZ",
+        "cargo": "Desenvolvedor Vue.js",
+        "requisitos": ["HTML", "CSS", "JavaScript", "Vue.js", "Git"],
+        "salario": 5500,
+        "modalidade": "Remoto",
+        "stack": "Vue",
+        "senioridade": "Pleno"
+    }
+]
