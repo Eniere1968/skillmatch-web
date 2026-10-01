@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillMatch - Encontre sua vaga de Front-End</title>
+    <meta name="description" content="SkillMatch analisa suas habilidades e encontra as melhores vagas de front-end para você.">
+    <link rel="stylesheet" href="assets/styles/index.style.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+        <div class="container">
+            <img src="assets/img/logo.svg" alt="Logo SkillMatch" class="logo">
+            <h1>Empresa de recrutamento Itapoa SC.</h1>
+            <p class="slogan">Encontre a vaga certa para seu perfil</p>
+        </div>
+    </header>
+
+    <!-- Navegação -->
+    <nav class="navegacao" aria-label="Navegação principal">
+        <div class="container">
+            <ul>
+                <li><a href="#perfil">Meu Perfil</a></li>
+                <li><a href="#resultados">Resultados</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Conteúdo principal -->
+    <main class="container">
+        
+        <!-- Formulário do Perfil -->
+        <section id="perfil" class="secao-perfil">
+            <h2>Meu Perfil</h2>
+            <p>Preencha seus dados para encontrarmos as melhores vagas para você.</p>
+            
+            <form id="form-perfil" novalidate>
+                <div class="campo">
+                    <label for="nome">Nome completo:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    <span class="erro" id="erro-nome"></span>
+                </div>
+
+                <div class="campo">
+                    <label for="area">Área de interesse:</label>
+                    <select id="area" name="area" required>
+                        <option value="">Selecione...</option>
+                        <option value="frontend">Front-End</option>
+                        <option value="backend">Back-End</option>
+                        <option value="fullstack">Full Stack</option>
+                    </select>
+                    <span class="erro" id="erro-area"></span>
+                </div>
+
+                <div class="campo">
+                    <label for="habilidades">Habilidades (separadas por vírgula):</label>
+                    <input type="text" id="habilidades" name="habilidades" placeholder="HTML, CSS, JavaScript" required>
+                    <span class="erro" id="erro-habilidades"></span>
+                </div>
+
+                <div class="campo">
+                    <label for="experiencia">Tempo de experiência:</label>
+                    <select id="experiencia" name="experiencia" required>
+                        <option value="">Selecione...</option>
+                        <option value="junior">Júnior (0-2 anos)</option>
+                        <option value="pleno">Pleno (2-5 anos)</option>
+                        <option value="senior">Sênior (5+ anos)</option>
+                    </select>
+                    <span class="erro" id="erro-experiencia"></span>
+                </div>
+
+                <div class="botoes-form">
+                    <button type="submit" class="btn-primario">Analisar Perfil</button>
+                    <button type="button" class="btn-secundario" id="btn-limpar">Limpar</button>
+                </div>
+            </form>
+        </section>
+
+        <!--  Resultados -->
+        <section id="resultados" class="secao-resultados">
+            <h2>Resultados</h2>
+            <p id="status-resultados">Preencha o formulário acima para ver as vagas compatíveis.</p>
+            
+            <div id="melhor-vaga" class="melhor-vaga"></div>
+            
+            <div id="cards-vagas" class="cards-vagas"></div>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <div class="container">
+            <p>&copy; 2026 SkillMatch Web. Projeto avaliativo </p>
+        </div>
+    </footer>
+
+    <script type="module" src="assets/scripts/main.js"></script>
+</body>
+</html>
