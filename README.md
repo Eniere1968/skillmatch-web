@@ -69,7 +69,7 @@ skillmatch-web/
 
   Como funciona
 
-suário preenche o formulário com nome, área, habilidades e experiência
+usuário preenche o formulário com nome, área, habilidades e experiência
 Motor de compatibilidade compara as habilidades do candidato com os requisitos de cada vaga
 Sistema calcula o percentual de compatibilidade e classifica as vagas (Alta/Média/Baixa)
 Melhor vaga é destacada com recomendação de estudo
